@@ -1326,7 +1326,7 @@ print("--[[Loaded UI]]--")
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
     Title = "NeXus Hub-Blox Fruit [ Premium ] True V2",
-    SubTitle = "by _tobii",
+    SubTitle = "by _Tobii",
     TabWidth = 155,
     Size = UDim2.fromOffset(500, 350),
     Acrylic = false, 
@@ -8031,8 +8031,8 @@ Input = PVP:AddInput("Input", {
 })
 ----------------------------------------------------------------------------------------------------
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Yes Or No";
-    Text = "U want reset Config?";
+    Title = "NeXus Hub";
+    Text = "Are You Banned from Fast Attack?";
     Icon = "rbxassetid://124374213543717";
     Duration = 1e5;
 	Button1 = "Yes";
@@ -8056,7 +8056,7 @@ Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Frame.BorderSizePixel = 1
 Frame.Position = UDim2.new(0, 20, 0.1, -6)  
 Frame.Size = UDim2.new(0, 50, 0, 50)
-Frame.Name = "dut dit"
+Frame.Name = "NeXus Hub"
 
 ImageLabel.Parent = Frame
 ImageLabel.Name = "NeXus Test"
@@ -8068,7 +8068,7 @@ ImageLabel.BackgroundTransparency = 1
 ImageLabel.BorderSizePixel = 1
 ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Image = "http://www.roblox.com/asset/?id= 124374213543717"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=118600721466641"
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = Frame
@@ -8118,7 +8118,6 @@ TextButton.MouseButton1Down:Connect(function()
 
     VirtualInputManager:SendKeyEvent(true, "LeftControl", false, game)
 end)
---\\ ♡VIP♡
 ----------------------------------------------------------------------------------------------------
 print("--[[Hop Server If You Meet Game Admin]]--")
 local targetPlayers = {
