@@ -8033,7 +8033,7 @@ Input = PVP:AddInput("Input", {
 game.StarterGui:SetCore("SendNotification", {
     Title = "NeXus Hub";
     Text = "Are You Banned from Fast Attack?";
-    Icon = "https://create.roblox.com/store/asset/118600721466641/1000026335";
+    Icon = "rbxassetid://118600721466641";
     Duration = 1e5;
 	Button1 = "Yes";
 	Button2 = "No";
